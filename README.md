@@ -1,8 +1,9 @@
-NavBar.js 밑 NavBar.css 추가하시고
-아래와 같이 App.js에서 10번째 줄, 19번째 줄만 추가하시면 됩니다.
+##### NavBar.js 밑 NavBar.css 추가하시고
+##### 아래와 같이 App.js에서 NarBar import하시고 <NarBar /> 컴포넌트 추가하시면 됩니다.
 
 -------------------------------------------------------------
-
+{% highlight javascript linenos %}
+``` javascript
 import './App.css';
 import React, { useState } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -22,3 +23,5 @@ function App() {
   );
 }
 export default App;
+```
+{% endhighlight %}
