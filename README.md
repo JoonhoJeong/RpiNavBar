@@ -1,11 +1,8 @@
 NavBar.js 밑 NavBar.css 추가하시고
-아래와 같이 App.js에서 13번째 줄, 22번째 줄만 추가하시면 됩니다.
-
-
+아래와 같이 App.js에서 10번째 줄, 19번째 줄만 추가하시면 됩니다.
 
 -------------------------------------------------------------
-<pre>
-<code>
+
 import './App.css';
 import React, { useState } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -25,5 +22,3 @@ function App() {
   );
 }
 export default App;
-</code>
-<pre>
