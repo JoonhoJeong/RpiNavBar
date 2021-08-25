@@ -46,7 +46,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 0px 2rem;
+  padding: 0 2rem;
   position: fixed;
   left: 0;
   right: 0;
